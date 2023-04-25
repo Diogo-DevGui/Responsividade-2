@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #17233d;
+    cursor: pointer;
+    margin-right: 32px;
+    letter-spacing: 0.825px;
+}
+
+
+
+
+.button-header {
+    background: #6fbf44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.image-logo {
+    /* display: inline-block; */
+    width: 2;
+    height: 500px;
+    margin: 16px 0 0 121px;
+}
+
+div {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+
+
+p {
+    margin-top: 57px;
+    margin-bottom: 55px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+
+}
+
+.button-more {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: #6FBF44;
+}
+
+@media screen and (max-width:900px) {
+        {
+        width: 90%;
+        height: 800px;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .image-logo {
+        display:flex;
+        position: absolute;
+        width: 280px;
+        Height: 275px;
+        margin: 350px 60px; 
+        
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+        width: 278px;
+        height: 60px;
+        margin-bottom: 29px;
+        color: #161A49;
+        margin-left: -30px;
+
+    }
+
+    .button-header {
+        Width:
+            91px;
+        Height:
+            31px;
+        box-sizing: border-box;
+        float: right;
+        margin-top: -22px;
+        margin-right: 15px;
+        margin-bottom: 76px;
+        background: #6FBF44;
+        border: 1px solid #4CB538;
+        border-radius: 6px;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 1px;
+
+        color: #FFFFFF;
+    }
+
+    p {
+        width: 304px;
+        height: 165px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #4B505A;
+        margin-left: -40px;
+    }
+.button-more{ display: flex;
+    position: absolute;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: -45px 60px; 
+    
+    color: #6FBF44;
+    
+}
+
+
+
+}
